@@ -1,0 +1,34 @@
+{
+  "name": "StoreOrder",
+  "plural": "orders",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "orderNumber": {
+      "type": "string",
+      "required": true
+    },
+    "orderDate": {
+      "type": "string"
+    },
+    "storeCity": {
+      "type": "string"
+    },
+    "storeState": {
+      "type": "string"
+    },
+    "employee": {
+      "type": "string"
+    },
+    "saleAmount": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
